@@ -1,6 +1,7 @@
 # Utitlities
 numpy
 pandas
+streamlit-extras
 
 # Face recognition
 scikit-learn
@@ -17,3 +18,5 @@ pillow
 
 streamlit
 
+librosa
+resemblyzer

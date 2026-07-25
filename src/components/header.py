@@ -1,65 +1,26 @@
 import streamlit as st
 
-
 def header_home():
-    left, center, right = st.columns([1, 2, 1])
 
-    with center:
-        l, img, r = st.columns([1.2, 1, 1.4])  # Increase left column to push image right
+    logo_url = "https://i.ibb.co/YTYGn5qV/logo.png"
 
-        with img:
-            st.image("assets/logo.png", width=120)
-        st.markdown("""
-        <style>
-            img{
-            margin-bottom:-20px;}
-        </style>
-        <div style="display:flex;
-                    flex-direction:column;
-                    align-items:center;
-                    justify-content:center;">
-        """, unsafe_allow_html=True)
+    st.markdown (f"""
+        <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; margin-bottom:30px; margin-top:30px">
+            <img src='{logo_url}', style='height:100px;'/>
+            <h1 style='text-align:center; color:#E0E3FF'>SNAP<br/>CLASS</h1>
+        </div>
 
-        st.markdown("""
-            <h1 style="
-                text-align:center;
-                color:#E0E3FF;
-                line-height:0.9;
-                position:relative;
-                margin-top:-20px;">
-                SNAP<br>CLASS
-            </h1>
-            """, unsafe_allow_html=True)
+            """,unsafe_allow_html=True)
+    
 
-        st.markdown("</div>", unsafe_allow_html=True)
-# import streamlit as st
+def header_dashboard():
 
-# def header_home():
-#     left, center, right = st.columns([1, 2, 1])
+    logo_url = "https://i.ibb.co/YTYGn5qV/logo.png"
 
-#     with center:
-#         l, img, r = st.columns([1.2, 1, 0.8])  # Increase left column to push image right
+    st.markdown (f"""
+        <div style="display:flex; align-items:center; justify-content:center; gap:10px">
+            <img src='{logo_url}', style='height:85px;'/>
+            <h2 style='text-align:left; color:#5865F2'>SNAP<br/>CLASS</h2>
+        </div>
 
-#         with img:
-#             st.image("assets/logo.png", width=120)
-#         st.markdown("""
-#         <div style="display:flex;
-#                     flex-direction:column;
-#                     align-items:center;
-#                     justify-content:center;">
-#         """, unsafe_allow_html=True)
-
-#         st.markdown("""
-#             <h1 style="
-#                 text-align:center;
-#                 color:#E0E3FF;
-#                 margin-top:10px;
-#                 margin-bottom:30px;
-#                 line-height:1.1;
-#                 position:relative;
-#                 left:-5px;">
-#                 SNAP<br>CLASS
-#             </h1>
-#             """, unsafe_allow_html=True)
-
-#         st.markdown("</div>", unsafe_allow_html=True)
+            """,unsafe_allow_html=True)
