@@ -17,5 +17,10 @@ bcrypt
 segno
 pillow
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> fb2fa5d8 (final_touchup)
 librosa
 resemblyzer
