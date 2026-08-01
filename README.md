@@ -118,3 +118,8 @@ Then open the forwarded port from the **Ports** tab (set its visibility to Publi
 
 ## 🗺️ Roadmap / Ideas
 - Export attendance records to CSV/Excel
+
+## Deploy on Streamlit
+```bash
+https://my-snapclass.streamlit.app/
+```
